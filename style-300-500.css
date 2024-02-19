@@ -1,0 +1,256 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+
+    body h1{
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 150%; /* 105% */
+        margin: 0;
+    }
+
+    body h2{
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 150%;
+        margin: 0;
+    }
+
+    body h3{
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: -0.75px;
+        margin: 0;
+    }
+
+    body p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%; /* 185.714% */
+        letter-spacing: -0.657px;
+        margin: 0;
+    }
+
+    /*----------------------------------------header-----------------------------------------------*/
+
+    header .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    header .logo img{
+        width: 27px;
+        height: 27px;
+        margin-right: 4px;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header .contact{
+        display: none;
+    }
+
+    /*------------------------------------------main--------------------------------------------------------*/
+
+    /*------------------------------------------section-first-----------------------------------------------*/
+
+
+     main .first{
+        margin: 3vh 7vw 0 7vw;
+         display: flex;
+         flex-direction: column;
+     }
+
+    .first div{
+        width: 100%;
+        margin-top: 0;
+        height: 69vh;
+    }
+
+    .first div h1{
+        width: 90%;
+    }
+
+    .first div p{
+        width: 90%;
+    }
+
+    main .first button{
+        width: 166px;
+        height: 44px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    main .first .img{
+        width: 100vw;
+        margin-left: -5vw;
+    }
+
+    main .first .img img{
+        margin-top: 0;
+    }
+
+    /*------------------------------------------section-second-----------------------------------------------*/
+
+    .second{
+        margin: 10vh 7vw 0 7vw;
+    }
+
+    .second div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second div h2{
+        width: 100%;
+
+    }
+
+    .second div p{
+        margin-top: 4vh;
+        width: 90%;
+    }
+
+    .second img{
+        margin-top: 7vh;
+        width: 100%;
+    }
+
+/*------------------------------------------section-services-----------------------------------------------*/
+
+    .services{
+        margin: 0 7vw 0 7vw;
+        height: auto;
+    }
+
+    .services h2{
+        width: 100%;
+    }
+
+
+    .services .icons{
+        margin-top: 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .services .icons div{
+        margin-top: 7vh;
+    }
+
+
+    .services .icons div p{
+        font-size: 16px;
+        margin-top: 24px;
+        text-align: center;
+        width: 78%;
+    }
+
+    /*------------------------------------------section-portfolio-----------------------------------------------*/
+
+    .portfolio{
+        margin-top: 7vh;
+        padding-top: 1px;
+        height: 100vh;
+        background: #19191B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .portfolio h2{
+        margin: 0 7vw 0 7vw;
+        font-size: 36px;
+        font-weight: 400;
+
+    }
+
+    .portfolio>div{
+        margin: 4vh 0 0 0;
+    }
+
+    .portfolio>div>div:nth-child(n+2){
+        display: none;
+    }
+
+    .portfolio>div>div{
+        width: 100%;
+    }
+
+    .portfolio>div>div>img{
+        width: 100%;
+        border-radius: 14px;
+        border: 24px solid #1E1E20;
+    }
+
+/*------------------------------------------section-contacts-----------------------------------------------*/
+
+    .contactus{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .contactus h2{
+        margin: 0 7vw 0 7vw;
+        width: 90%;
+    }
+
+    .contactus button{
+        margin:14vw 0 0 7vw;
+        width: 166px;
+        height: 44px;
+    }
+
+/*---------------------------------------------footer----------------------------------------------*/
+
+    footer{
+        margin-top: 5vh;
+        height: auto;
+    }
+
+    footer>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    footer>div>div{
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+
+    footer>div>div img{
+        width: 27px;
+        height: 27px;
+        margin-right: 4px;
+    }
+
+    footer>div>p{
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0 0 5vh 0;
+    }
+
+    footer article{
+        display: block;
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    footer article>p{
+        margin-bottom: 5vh;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+
+
+}

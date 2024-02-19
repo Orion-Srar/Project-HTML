@@ -1,0 +1,122 @@
+@media screen and (min-width: 1001px) and (max-width: 1400px){
+
+    body h1{
+        font-size: 68px;
+        font-weight: 400;
+        line-height: 110%; /* 105% */
+        margin: 0;
+    }
+
+    body h2{
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 120%;
+        margin: 0;
+    }
+
+    body h3{
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: -0.75px;
+        margin: 0;
+    }
+
+    body p{
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: -0.657px;
+        margin: 0;
+    }
+
+    /*----------------------------------------header-----------------------------------------------*/
+
+    header .contact{
+        width: 142px;
+        height: 32px;
+    }
+
+    /*------------------------------------------main--------------------------------------------------------*/
+    /*------------------------------------------section-first-----------------------------------------------*/
+
+    .first div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .first div p{
+        margin-top: 3vw;
+    }
+
+    main .first button{
+        width: 142px;
+        height: 38px;
+        margin-top: 3vw;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    main .first .img{
+        width: 35vw;
+    }
+
+    /*------------------------------------------section-second-----------------------------------------------*/
+
+    .second{
+        margin: 5vh 7vw 0 7vw;
+    }
+
+    .second div p{
+        margin-top: 10px;
+    }
+
+    .second img{
+        margin-top: 5vh;
+
+    }
+
+    /*------------------------------------------section-services-----------------------------------------------*/
+
+    .services{
+        height: auto;
+        margin: 4vh 7vw 0 7vw;
+    }
+
+    .services .icons{
+        height: auto;
+    }
+
+    .services>div>div{
+        margin-top: 10vh;
+    }
+
+    .services h3{
+        font-weight: 500;
+    }
+
+
+    .services .icons div p{
+        font-size: 16px;
+        margin-top: 24px;
+        text-align: center;
+        width: 78%;
+    }
+
+    /*------------------------------------------section-portfolio-----------------------------------------------*/
+
+    .portfolio{
+        margin-top: 10vh    ;
+    }
+
+
+
+
+
+
+
+
+
+}

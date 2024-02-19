@@ -1,0 +1,129 @@
+@media screen and (min-width: 501px) and (max-width: 1000px){
+
+    body h1{
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 115%; /* 105% */
+        margin: 0;
+    }
+
+    body h2{
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 130%;
+        margin: 0;
+    }
+
+    body h3{
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: -0.75px;
+        margin: 0;
+    }
+
+    body p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: -0.657px;
+        margin: 0;
+    }
+
+    /*----------------------------------------header-----------------------------------------------*/
+
+    header .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    header .logo img{
+        width: 27px;
+        height: 27px;
+        margin-right: 4px;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header .contact{
+        width: 142px;
+        height: 32px;
+    }
+
+    /*------------------------------------------main--------------------------------------------------------*/
+
+    /*------------------------------------------section-first-----------------------------------------------*/
+
+
+    .first div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+        margin-top: 0;
+    }
+
+
+    .first div p{
+        margin-top: 4vw;
+    }
+
+    main .first button{
+        width: 18vw;
+        height: 6vw;
+        margin-top: 4vw;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    main .first .img{
+        width: 38vw;
+    }
+
+
+    /*------------------------------------------section-second-----------------------------------------------*/
+
+    .second{
+        margin: 10vh 7vw 0 7vw;
+    }
+
+    .second div p{
+        margin-top: 10px;
+    }
+
+    /*------------------------------------------section-services-----------------------------------------------*/
+
+    .services{
+        height: auto;
+        margin: 0 7vw 0 7vw;
+    }
+
+    .services .icons{
+        height: auto;
+    }
+
+    .services>div>div{
+        margin-top: 5vw;
+    }
+
+    .services h3{
+        font-weight: 500;
+    }
+
+
+    .services .icons div p{
+        font-size: 16px;
+        margin-top: 24px;
+        text-align: center;
+        width: 78%;
+    }
+
+    /*------------------------------------------section-contacts-----------------------------------------------*/
+
+    .contactus button{
+        width: 166px;
+        height: 44px;
+    }
+
+}
